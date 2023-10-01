@@ -1,0 +1,5 @@
+app_name = "compound-interest"
+app_namespace = "ci-prod"
+app_repo_url = "https://github.com/JonathanS878/Compound-Interest-K8-GitOps.git"
+app_path = "helm/app-chart"
+argocd_user = "admin"
