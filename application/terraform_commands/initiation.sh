@@ -20,7 +20,7 @@ check_success() {
 
 # Step 1: Get GKE credentials
 print_step "Step 1: Getting GKE credentials..."
-gcloud container clusters get-credentials compound-interest-prod --zone us-west1-a --project direct-keel-400715
+gcloud container clusters get-credentials compound-interest-prod --zone us-west1-a --project compound-interest-project
 check_success "retrieve GKE credentials"
 
 # Step 2: Run Terraform

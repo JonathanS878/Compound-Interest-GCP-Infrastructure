@@ -30,15 +30,15 @@ resource "argocd_application" "compound_interest" {
   }
 
 }
-# resource "null_resource" "create_webhook" {
-#   provisioner "local-exec" {
-#     command = "kubectl -n argocd patch secret argocd-secret -p '{\"stringData\": {\"webhook.github.secret\": \"emanuel\"}}'"
-#   }
+resource "null_resource" "create_webhook" {
+  provisioner "local-exec" {
+    command = "kubectl -n argocd patch secret argocd-secret -p '{\"stringData\": {\"webhook.github.secret\": \"dovzeav\"}}'"
+  }
 
-#   triggers = {
-#     always_run = "${timestamp()}"
-#   }
-# }
+  triggers = {
+    always_run = "${timestamp()}"
+  }
+}
 
 
 

@@ -2,11 +2,11 @@
 
 This repository contains the infrastructure as code (IaC) configurations for the DevOps application, which is a part of a larger ecosystem composed of three repositories:
 
-**Application**: [Application Repo](https://github.com/BinyaminR/Application-compound-interest)
+**Application**: [Application Repo](https://github.com/JonathanS878/Compound-Interest-Application)
 
- **GitOps** : [GitOps Repo](https://github.com/BinyaminR/Gitops-compound-interest)
+ **GitOps** : [GitOps Repo](https://github.com/JonathanS878/Compound-Interest-K8-GitOps)
  
- **Infrastructure** (Current repository): [Infrastructure Repo](https://github.com/BinyaminR/Infrastructure-compound-interest)
+ **Infrastructure** (Current repository): [Infrastructure Repo](https://github.com/JonathanS878/Compound-Interest-GCP-Infrastructure)
 
 ## Overview
 

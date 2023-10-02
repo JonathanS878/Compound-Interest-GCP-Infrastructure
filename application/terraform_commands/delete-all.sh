@@ -16,7 +16,7 @@ if [ $? -eq 0 ]; then
 
     # Delete the kubectl context
     echo "Deleting kubectl context..."
-    kubectl config delete-context gke_bootcamp-project-gke_us-west1-a_binyamin-app
+    kubectl config delete-context gke_compound-interest-project_us-west1-a_compound-interest-prod
 
     if [ $? -eq 0 ]; then
         echo "Successfully deleted the kubectl context."

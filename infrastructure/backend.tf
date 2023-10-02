@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "compound-interest-terraform-statefile"
+   bucket  = "compound-interest-infra-statefile"
    prefix  = "terraform/state"
  }
 }
